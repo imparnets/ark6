@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consumo de Bebida Alcoólica</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+  }
+  .italic {
+    font-style: italic;
+  }
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  p {
+    margin: 10px 0;
+  }
+</style>
+</head>
+<body>
+
+<h3>Quantas doses de bebida alcoólica você consumiu nessa última semana?</h3>
+
+<p class="italic">Considerando que 1 dose representa as seguintes medidas: Vinho tinto (150ml) / Cerveja (lata 300ml) / Destilados (40ml).</p>
+
+<form>
+  <p>
+    <input type="radio" id="nao-bebo" name="consumo" value="nao-bebo">
+    <label for="nao-bebo">Não bebo</label>
+  </p>
+  <p>
+    <input type="radio" id="ate-3-doses" name="consumo" value="ate-3-doses">
+    <label for="ate-3-doses">Até 3 doses</label>
+  </p>
+  <p>
+    <input type="radio" id="entre-4-a-7-doses" name="consumo" value="entre-4-a-7-doses">
+    <label for="entre-4-a-7-doses">Entre 4 a 7 doses</label>
+  </p>
+  <p>
+    <input type="radio" id="entre-8-a-14-doses" name="consumo" value="entre-8-a-14-doses">
+    <label for="entre-8-a-14-doses">Entre 8 a 14 doses</label>
+  </p>
+  <p>
+    <input type="radio" id="mais-de-14-doses" name="consumo" value="mais-de-14-doses">
+    <label for="mais-de-14-doses">Mais de 14 doses</label>
+  </p>
+</form>
+
+</body>
+</html>
